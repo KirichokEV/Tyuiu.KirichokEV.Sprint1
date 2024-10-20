@@ -6,7 +6,7 @@ namespace Tyuiu.KirichokEV.Sprint1.Task2.V13.Lib
     {
         public double ConvertMilesToKm(int value)
         {
-            return value * 1.609; 
+            return value * 1.60934; 
         }
     }
 }
