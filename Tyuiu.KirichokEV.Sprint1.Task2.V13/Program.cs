@@ -34,7 +34,9 @@ namespace Tyuiu.KirichokEV.Sprint1.Task2.V13
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                        *");
             Console.WriteLine("*************************************************************************************");
 
+            
             Console.WriteLine("Расстояние в милях =" + ds.ConvertMilesToKm(x));
+
 
             Console.ReadLine();
         }
