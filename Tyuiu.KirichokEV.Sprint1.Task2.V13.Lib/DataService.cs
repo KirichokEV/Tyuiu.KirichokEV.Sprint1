@@ -1,4 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint1;
+﻿using System.Net.WebSockets;
+using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.KirichokEV.Sprint1.Task2.V13.Lib
 {
@@ -6,8 +7,8 @@ namespace Tyuiu.KirichokEV.Sprint1.Task2.V13.Lib
     {
         public double ConvertMilesToKm(int value)
         {
-            value = value * 1.60934;
-            return Math.Round(value, 3); 
+            double resuit = value * 1.60934; 
+            return Math.Round(result, 3); 
         }
     }
 }
