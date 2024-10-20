@@ -7,7 +7,7 @@ namespace Tyuiu.KirichokEV.Sprint1.Task2.V13.Lib
     {
         public double ConvertMilesToKm(int value)
         {
-            double resuit = value * 1.60934; 
+            double result = value * 1.60934; 
             return Math.Round(result, 3); 
         }
     }
