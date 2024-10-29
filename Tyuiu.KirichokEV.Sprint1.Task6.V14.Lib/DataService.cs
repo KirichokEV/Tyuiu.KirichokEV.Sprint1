@@ -6,7 +6,6 @@ namespace Tyuiu.KirichokEV.Sprint1.Task6.V14.Lib
     {
         public bool CheckLowerCaseRusLetters(string value)
         {
-
             int Ru = 0, En = 0;
             string line = value;
             line = line.ToUpper();
@@ -17,7 +16,7 @@ namespace Tyuiu.KirichokEV.Sprint1.Task6.V14.Lib
                     Ru++;
                 else if ((c >= 'A') && (c <= 'Z')) En++;
             }
-            if (Ru > 0 && En == 0)
+            if (En == 0 && Ru > 0)
             {
                 return true;
             }
@@ -25,7 +24,6 @@ namespace Tyuiu.KirichokEV.Sprint1.Task6.V14.Lib
             {
                 return false;
             }
-
         }
     }
 }
