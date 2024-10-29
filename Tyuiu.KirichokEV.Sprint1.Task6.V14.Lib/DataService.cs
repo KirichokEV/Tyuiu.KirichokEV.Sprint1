@@ -19,11 +19,11 @@ namespace Tyuiu.KirichokEV.Sprint1.Task6.V14.Lib
             }
             if (Ru > 0 && En == 0)
             {
-                return false;
+                return true;
             }
             else
             {
-                return true;
+                return false;
             }
 
         }
